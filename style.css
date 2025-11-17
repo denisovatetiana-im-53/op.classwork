@@ -58,6 +58,7 @@ header{
 }
 .takequiz button{
    margin-left: 720px;
+   margin-bottom: 180px;
    padding: 10px 20px;
    background-color: plum;
    color: white;
