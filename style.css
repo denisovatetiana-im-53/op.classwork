@@ -1,13 +1,14 @@
 body {
    margin: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #f7f9fb;
+   background-color: #ffe6f0;
    color: #333;
    }
 header{
-   background-color: plum;
+   background-color: #ffb3d9;
+   box-shadow: 0 2px 5px rgba(180,0,90,0.2);
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: white;
+   color: #333;
    padding: 10px;
    position: fixed;
    width: 100%;
@@ -36,16 +37,16 @@ header{
 .createnewtask button{
    margin-left: 720px;
    padding: 10px 20px;
-   background-color: plum;
+   background-color: #ff66a3;
    color: white;
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   border: 2px solid black;
+   border: 2px solid #b30059;
    
 }
 .createnewtask button:hover{
-   background-color: purple;
+   background-color: #b30059;
 }
 .takequiz h1{
    text-align: center;
@@ -60,19 +61,20 @@ header{
    margin-left: 720px;
    margin-bottom: 180px;
    padding: 10px 20px;
-   background-color: plum;
+   background-color: #ff66a3;
    color: white;
    border: none;
    border-radius: 5px;
    cursor: pointer;
-   border: 2px solid black;
+   border: 2px solid #b30059;
 }
 .takequiz button:hover{
-   background-color: purple;
+   background-color: #b30059;
 }
 footer{
-   background-color: plum;
-   color: white;
+   background-color: #ffb3d9;
+   box-shadow: 0 -2px 5px rgba(180,0,90,0.2);
+   color: #333;
    text-align: center;
    padding: 10px;
    position: fixed;
