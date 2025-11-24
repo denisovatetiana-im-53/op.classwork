@@ -1,4 +1,3 @@
-
 window.Storage = {
     save(key, value) {
         localStorage.setItem(key, JSON.stringify(value));
@@ -13,3 +12,6 @@ window.Storage = {
         localStorage.removeItem(key);
     }
 };
+Storage.save()
+Storage.load()
+Storage.remove()

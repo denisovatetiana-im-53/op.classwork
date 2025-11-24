@@ -93,6 +93,6 @@ function showResult() {
 }
 
 // navigation
-document.getElementById("home-btn").onclick = () => {
-    location.href = "index.html";
+document.getElementById("back-btn").onclick = () => {
+    location.href = "Index.html";
 };
